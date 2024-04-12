@@ -1,0 +1,30 @@
+.botao1{
+background-color: purple;
+
+}
+.botao2{
+background-color: aqua;
+
+}
+.botao3{
+background-color: purple;
+
+}
+.botao4{
+background-color: aqua;
+
+}
+:root{
+    --cor-de-fundo: #700161;
+--verde: #6FFF57;
+--branco:#18abb6;
+--botao-ativo: #3E375E;
+--botao-inativo : rgba(58,55,94,0.5);
+--texto-fundo:rgba(58,55,94,0.3);
+}
+*{
+background-color: var(--cor-de-fundo);
+color: var(--branco);
+
+
+}
