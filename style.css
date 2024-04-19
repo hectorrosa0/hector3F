@@ -27,4 +27,28 @@ background-color: var(--cor-de-fundo);
 color: var(--branco);
 
 
+} 
+.conteudo-principal{
+   display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+max-width: 1200px;
+}
+
+.titulo-principal{
+text-align: center;
+width: 100%;
+font-size: 32px;
+}
+.botao1{
+background-color: var(--botao-inativo);
+color: magenta;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1em;
+width: 100%;
+border-bottom: 4px solid var(--botao-ativo);
 }
