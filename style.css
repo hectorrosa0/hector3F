@@ -35,6 +35,8 @@ justify-content: center;
 flex-direction: column;
 width: 100%;
 max-width: 1200px;
+
+
 }
 
 .titulo-principal{
@@ -42,7 +44,7 @@ text-align: center;
 width: 100%;
 font-size: 32px;
 }
-.botao1{
+.botao1,.botao2,.botao3,.botao4{
 background-color: var(--botao-inativo);
 color: magenta;
 display: flex;
@@ -50,5 +52,34 @@ justify-content: center;
 align-items: center;
 padding: 1em;
 width: 100%;
+font-size: 18px;
 border-bottom: 4px solid var(--botao-ativo);
+border-left: 2px solid var (--botao-ativo);
+border-right: 2px solid var (--botao-ativo);
+}
+
+.botoes{
+    display: block;
+}
+.botao1,.botao2,.botao3,.botao4:first-child{
+
+border-radius: 20px 20px 0 0;
+}
+
+.botao1,.botao2,.botao3,.botao4:last-child{
+    border-radius: 0 0 20px 20px;
+
+    @media screen and (min-width: 700px; ){
+ .botoes{
+     display: flex
+ }
+ .botoes:last-child{
+    border-radius:0  20px 20px 0;
+ }
+
+    .botoes:first-child{
+border-radius: 20px  0 0 20px;
+
+    }
+}
 }
