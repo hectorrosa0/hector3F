@@ -1,19 +1,4 @@
-.botao1{
-background-color: purple;
 
-}
-.botao2{
-background-color: aqua;
-
-}
-.botao3{
-background-color: purple;
-
-}
-.botao4{
-background-color: aqua;
-
-}
 :root{
     --cor-de-fundo: #700161;
 --verde: #6FFF57;
@@ -28,23 +13,16 @@ color: var(--branco);
 
 
 } 
-.conteudo-principal{
-   display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-width: 100%;
-max-width: 1200px;
 
 
-}
+
 
 .titulo-principal{
 text-align: center;
 width: 100%;
 font-size: 32px;
 }
-.botao1,.botao2,.botao3,.botao4{
+.botao{
 background-color: var(--botao-inativo);
 color: magenta;
 display: flex;
@@ -54,23 +32,24 @@ padding: 1em;
 width: 100%;
 font-size: 18px;
 border-bottom: 4px solid var(--botao-ativo);
-border-left: 2px solid var (--botao-ativo);
-border-right: 2px solid var (--botao-ativo);
+border-left: 2px solid var(--botao-ativo);
+border-right: 2px solid var(--botao-ativo);
 }
 
 .botoes{
     display: block;
 }
-.botao1,.botao2,.botao3,.botao4:first-child{
+.botam:first-child{
 
 border-radius: 20px 20px 0 0;
 }
 
-.botao1,.botao2,.botao3,.botao4:last-child{
+.botam:last-child{
     border-radius: 0 0 20px 20px;
+}
 
-    @media screen and (min-width: 700px; ){
- .botoes{
+    @media screen and (min-width: 700px ){
+ .botam{
      display: flex
  }
  .botoes:last-child{
@@ -81,5 +60,4 @@ border-radius: 20px 20px 0 0;
 border-radius: 20px  0 0 20px;
 
     }
-}
 }
