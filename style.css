@@ -2,10 +2,10 @@
 
 :root{
     --cor-de-fundo: #f179e7;
-    --verde: #e6ff57;
+    --verde: #ff57ab;
     --branco: #000550;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58,55,94,0.5);
+    --botao-ativo: #8afbff;
+    --botao-inativo: rgba(4, 176, 206, 0.5);
     --texto-fundo: rgba(58,55,94,0.3);
 }
 body{
@@ -33,7 +33,7 @@ span{
 }
 .botao{
     background-color: var(--botao-inativo); 
-    color: white;
+    color: rgb(151, 17, 240);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,6 +56,8 @@ span{
  }
  .abas-textos{
     background-color: var(--botao-inativo);
+    padding: 40px;
+border-radius: 15px;
  }
 @media screen and  (min-width: 700px){
     .botoes{
@@ -67,4 +69,13 @@ span{
     .botao:first-child{
         border-radius: 20px 0 0 20px;
     }
+}
+.aba-conteudo-titulo-principal{
+    text-align: center;
+    font-size: 28px;
+}
+.aba-conteudo-titulo-secundario{
+text-align: center;
+color: var(--verde);
+text-transform: lowercase;
 }
